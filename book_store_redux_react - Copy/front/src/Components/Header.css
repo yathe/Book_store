@@ -1,0 +1,39 @@
+.h-wrapper{
+    background:hotpink;
+    color:white;
+    z-index: 99;
+}
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:gray;
+}
+.h-menu{
+    gap:3rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}
+.h-menu> a{
+
+    color:white;
+    font-size: medium;
+    font-style: bold;
+    text-decoration: none;
+    
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.nav-ul> li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+.nav-ul> li a{
+    text-decoration: none;
+}
